@@ -1,1 +1,3 @@
-another file
+another file.txt
+
+some text to add
