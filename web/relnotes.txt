@@ -4,7 +4,7 @@ Summary of Changes
 ===================
 
 r17 (2014-02-07)
--------------------------
+---------------------
 - Accepted 6215 commit  - Resolving CITE-898 issue (BBOX in WSG84).
 - Fixed issue CITE 914, 916 - XSLT compile issue due to a text comment.
 - Added a note in the welcome main form to the reference implementation page.
@@ -226,7 +226,7 @@ Changes included in R9 (2012-04-05)
 
 2009-09-30 (efreese):
 - Changes to wfs-1.1.0-Basic-GetFeature-tc102.1:
-	The sorting test was failing because the 2nd occurrence of sf:Entit���G���n���rique 
+	The sorting test was failing because the 2nd occurrence of sf:Entit���������G���������n���������rique 
 	was not a valid XPath.  Modified the XPath to find the 2nd occurrence of 
 	gml:featureMember in order to have 2 values to compare. (Issue 347)
 
