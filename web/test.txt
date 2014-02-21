@@ -1,10 +1,4 @@
-another file.txt
+Test
+-----
 
-some text to add
-
-fix test for WFSOOZ-2
-<<<<<<< HEAD
-
-fix test for WFSOOZ-2
-=======
->>>>>>> 288bd400ddf7bfa16bfa2d618857a8356fe69a27
+Test file that now looks good.
