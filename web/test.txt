@@ -1,3 +1,5 @@
 another file.txt
 
 some text to add
+
+fix test for WFSOOZ-2
