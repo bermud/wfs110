@@ -1,0 +1,25 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ows: <http://www.opengis.net/ogc/ows/ows-core-ontology/> .
+@prefix ows10: <http://www.opengis.net/ogc/ows10/ows10-core-ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix f2n: <http://www.opengis.net/ogc/ows10/ows10-52n-ontology/> . 
+@prefix wenwen: <http://www.opengis.net/ogc/ows10/ows10-wenwen-ontology/> .
+@prefix nga: <http://www.opengis.net/ogc/ows10/ows10-nga-ontology/> .
+
+###################################################################
+#                FeatureCollections and Features
+###################################################################
+
+# The two OWS-10 data sources defined as instances of PROV Collection 
+# http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-collection
+ows:FeatureCollectionType rdfs:subClassOf prov:collection .
+
+#owl:sameAs is decribed here: <http://xmlns.com/foaf/spec/>
+
+ows10:SC_USGS a ows:FeatureCollectionType;
+			  owl:sameAs <http://portal.cubewerx.com/cubewerx/projects/ows9/cubeserv.cgi?service=WFS&amp;datastore=OWS9&amp;request=GetFeature&amp;typename=usgs:fireStationEmsStation>.
+ows10:SC_OSM a ows:FeatureCollectionType;
+			  owl:sameAs <http://services.interactive-instruments.de/xsprojects/ows10/service/tds-dgiwg/wfs/...>.
