@@ -3,7 +3,7 @@ WFS 1.1.0 Test Suite Release Notes
 Summary of Changes
 ===================
 
-r17 (2014-02-07)
+r17 (2014-02-07) ##
 ---------------------
 - Accepted 6215 commit  - Resolving CITE-898 issue (BBOX in WSG84).
 - Fixed issue CITE 914, 916 - XSLT compile issue due to a text comment.
